@@ -2,7 +2,7 @@ const express=require('express')
 const products = require('./data/products')
 const app = express()
 app.get('/',(req,res)=>{
-    res.send('api is running')
+    res.send('api is running..')
 })
 app.get('/api/products',(req,res)=>{
     res.json(products)
